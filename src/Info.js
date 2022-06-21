@@ -6,7 +6,7 @@ export const Info = () => {
         src="https://i.ibb.co/zPsbJcP/yatodev-redonda.png"
         alt="yatodev-redonda"
       />
-      <a href="https://github.com/Yato03">Github</a>
+      <a href="https://github.com/Yato03" target="_blank">Github</a>
     </div>
   );
 };
