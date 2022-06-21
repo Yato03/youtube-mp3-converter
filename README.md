@@ -2,7 +2,7 @@
 
 Convertidor de un video de youtube a mp3.
 
-Es una aplicación creada en React a partir de <a href="https://rapidapi.com/tuttotone/api/t-one-youtube-converter/" target="_blank">esta api de rapidApi</a>.
+Es una aplicación creada en <b>React</b> a partir de <a href="https://rapidapi.com/tuttotone/api/t-one-youtube-converter/" target="_blank">esta api de rapidApi</a>.
 
 Visita a este proyecto en la siguiente url: <a href="https://youtube-mp3-converter-beta.vercel.app/" target="_blank">https://youtube-mp3-converter-beta.vercel.app/</a>
 
