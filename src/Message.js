@@ -6,5 +6,5 @@ export const Message = ({ downloadUrl, percentage }) => {
       </a>
     );
   else if (percentage !== -1 && percentage) return percentage + "%";
-  else return "Aqui va la url...";
+  else return "Aqui va el link de descarga...";
 };
