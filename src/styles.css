@@ -1,0 +1,150 @@
+body {
+  font-family: sans-serif;
+  margin: 0px;
+}
+body:after {
+  content: "";
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: -1;
+  min-height: 100vh;
+  width: 100%;
+  background-image: linear-gradient(
+    0deg,
+    #9bf7fd 0%,
+    #2aeaf8 70%,
+    #66a6ff 100%
+  );
+  background-repeat: no-repeat;
+}
+
+nav {
+  color: white;
+  vertical-align: center;
+  box-shadow: 1px 2px 15px rgb(0, 0, 0, 0.08);
+  position: fixed;
+  top: 0;
+  width: 100%;
+  backdrop-filter: blur(5px);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-left: 15px;
+}
+
+nav h2 {
+  margin-left: 15px;
+}
+
+nav img {
+  height: 50px;
+}
+
+main {
+  text-align: center;
+  margin-top: 125px;
+  color: white;
+}
+
+form {
+  margin-bottom: 15px;
+}
+
+input {
+  width: 75%;
+  max-width: 400px;
+  height: 25px;
+  border-radius: 15px;
+  border: none;
+  padding-left: 10px;
+  box-shadow: 3px 1px 15px 2px;
+}
+
+button {
+  margin-top: 32px;
+  margin-bottom: 10px;
+  height: 30px;
+  width: 80px;
+  border-radius: 50px;
+  border: none;
+  background-color: white;
+  box-shadow: 1px 1px 6px 2px;
+}
+
+button:hover {
+  background-color: rgb(230, 230, 230);
+  cursor: pointer;
+  box-shadow: 1px 1px 6px 3px;
+}
+
+.messages {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  width: fit-content;
+  margin: auto;
+}
+
+.message {
+  display: inline;
+  background-color: rgb(88, 166, 255);
+  border-radius: 4px;
+  padding: 5px;
+  box-shadow: 1px 1px 6px 2px black;
+  /*padding: 2px;
+  box-shadow: 1px 1px 10px 1px black;
+  border-radius: 5px;*/
+}
+
+.error {
+  color: white;
+  border-radius: 4px;
+  padding: 5px;
+  background-color: tomato;
+  display: inline;
+  box-shadow: 1px 1px 6px 1px black;
+}
+
+.info {
+  color: black;
+  background-color: white;
+  width: 70%;
+  max-width: 500px;
+  margin: auto;
+  margin-top: 32px;
+  margin-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+  box-shadow: 6px 1px 15px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.info img {
+  max-width: 200px;
+  width: 80%;
+  margin: auto;
+}
+
+.info a {
+  margin-bottom: 10px;
+  color: #03a9f4;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+footer {
+  height: 30px;
+  line-height: 30px;
+  background: black;
+  color: white;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  display: block;
+}
